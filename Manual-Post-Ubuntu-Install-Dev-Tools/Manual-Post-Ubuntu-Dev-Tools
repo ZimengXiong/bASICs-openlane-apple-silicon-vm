@@ -1,0 +1,36 @@
+# Post Install Customization and Dev Tools
+
+## Openlane V2
+
+```bash
+# Install Curl
+sudo apt-get install -y curl
+sudo apt install git
+
+# Install Nix
+curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install --no-confirm --extra-conf "
+    extra-substituters = https://openlane.cachix.org
+    extra-trusted-public-keys = openlane.cachix.org-1:qqdwh+QMNGmZAuyeQJTH9ErW57OWSvdtuwfBKdS254E=
+"
+
+# Clone the Openlane Repo
+git clone https://github.com/efabless/openlane2
+
+# Enter the cloned repo
+cd openlane2
+
+# Open the shell, this might take 2-3 minutes for the first time
+nix-shell
+```
+
+Then, run
+
+```bash
+openlane --smoke-test
+```
+
+To verify your install is successful, you should see:
+
+```bash
+[19:39:08] INFO     Smoke test passed.                           __main__.py:296
+```
