@@ -2,7 +2,7 @@
 
 ## Prequisite Software
 
-1. Download the prebuilt UTM image from releases or with this [Direct Link](https://github.com/USER/PROJECT/releases/latest/download/utm-openlane2-macos-arm64.zip)
+1. Download the prebuilt UTM image from the Google Drive link in [releases](https://github.com/ZimengXiong/basics-openlane2-ubuntuvm/releases)
 
 2. Get UTM, a Virtual Machine host from [here](https://github.com/utmapp/UTM/releases/latest/download/UTM.dmg) or with `brew install --cask utm`, using [brew](https://brew.sh/)
 
@@ -30,27 +30,31 @@
 
 5. Load in the image you downloaded and placed in a persistent location.![](image-5.png)
 
-6. Click the run button to launch the VM.
+6. Click `Shared Directory->Browse`![](image-23.png)
+
+7. Naivgate to and select the directory you created in ~/Documents/OpenLaneVMShared![](image-24.png)
+
+8. Click the run button to launch the VM.
    ![](image-6.png)
 
-7. Wait for it to boot up, do not interact with the VM as it is booting. This can take 2-5 minutes, depending on your computer.![](image-7.png)
+9. Wait for it to boot up, do not interact with the VM as it is booting. This can take 2-5 minutes, depending on your computer.![](image-7.png)
 
-8. Press enter to login to the selected account. ![](image-8.png)
+10. Press enter to login to the selected account. ![](image-8.png)
 
-9. Type in the password: `beaver` for the user account `beaver`
-   ![](image-9.png)
+11. Type in the password: `beaver` for the user account `beaver`
+    ![](image-9.png)
 
-10. The display output may turn off during this process, give it 2-5 minutes for first startup.
+12. The display output may turn off during this process, give it 2-5 minutes for first startup.
 
-11. You have now successfully launched the VM. ![](image-10.png)
+13. You have now successfully launched the VM. ![](image-10.png)
 
-12. To share files between the host and the VM, navigate to the file manager, then scroll down to "Other Locations," then double click on "Spice client folder"
+14. To share files between the host and the VM, navigate to the file manager, then scroll down to "Other Locations," then double click on "Spice client folder"
     ![](image-11.png)
 
-13. A new folder should appear, you may click it to enter the folder.
+15. A new folder should appear, you may click it to enter the folder.
     ![](image-12.png)
 
-14. Files that you move to ~/Documents/OpenLaneVMShared will now appear in this folder.
+16. Files that you move to ~/Documents/OpenLaneVMShared will now appear in this folder.
 
 > [!NOTE]
 > To open the files in the VM, you may need to copy the files from the shared folder into a local directory in the VM, like /home/downloads.

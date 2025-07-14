@@ -1,5 +1,7 @@
 # Configuring Openlane VM for Apple Silicon Macs
 
+![](screenshot.png)
+
 For the simplest method, click [here](Prebuilt-Apple-Silicon-UTM/Prebuilt-Apple-Silicon-UTM.md).
 
 If you know what you are doing, build your own with the following guides.
