@@ -35,7 +35,26 @@ To verify your install is successful, you should see:
 [19:39:08] INFO     Smoke test passed.                           __main__.py:296
 ```
 
-# Installing GSD3D
+## Add Desktop Entry for Openlane
+
+Create the following file and contents
+
+```bash
+beaver@openlanevm:~$ cat ~/Desktop/openlane2.desktop
+[Desktop Entry]
+Name=OpenLane Launcher
+Comment=Launch OpenLane in nix-shell
+Exec=gnome-terminal -- bash -c "cd ~/openlane2 && nix-shell; exec bash"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=Development;
+```
+
+Now you can launch openlane and nix-shell with the shortcut.
+![](image.png)
+
+## Installing GSD3D
 
 GSD3D is used to view ICs, It doesn't come by default with openlane 2, but do feel free to read more about it [here](https://github.com/trilomix/GDS3D), below is the installation guide.
 
