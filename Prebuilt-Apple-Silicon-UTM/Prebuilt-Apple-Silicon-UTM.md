@@ -51,8 +51,9 @@
     ![](image-12.png)
 
 14. Files that you move to ~/Documents/OpenLaneVMShared will now appear in this folder.
-    > [!NOTE]
-    > To open the files in the VM, you may need to copy the files from the shared folder into a local directory in the VM, like /home/downloads.
+
+> [!NOTE]
+> To open the files in the VM, you may need to copy the files from the shared folder into a local directory in the VM, like /home/downloads.
 
 ## Verification of Install
 
