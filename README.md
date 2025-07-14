@@ -1,27 +1,29 @@
-# Configuring Openlane VM for Apple Silicon Macs
+# Configuring OpenLane VM for Apple Silicon Macs
 
-## Quickstart (I don't know what I'm doing)
+## Quick Start Options
 
-Click [here](Prebuilt-Apple-Silicon-UTM/Prebuilt-Apple-Silicon-UTM.md).
+### Prebuilt VM (If you don't know what you're doing)
 
-## Quickstart (I know what I'm doing)
+Click [here](docs/prebuilt-setup/01-setup.md).
+
+### Prebuilt VM (If you know what you are doing)
 
 1. Download the prebuilt UTM image from [Releases](https://github.com/ZimengXiong/bASICs-openlane-apple-silicon-vm/releases).
 2. Add share directory
 3. Credentials: beaver:beaver@openlanevm
 4. 🚀
 
-## Build your own
+### Manual Setup
 
-Build your own with the following guides.
+Build your own VM from scratch with complete control:
 
-1. [Build the VM](Manual-Apple-Silicon-UTM/Manual-Apple-Silicon-UTM.md)
+1. [VM Creation and Initial Setup](docs/manual-setup/01-vm-creation.md)
+2. [Ubuntu Installation Process](docs/manual-setup/02-ubuntu-installation.md)
+3. [Post-Installation Configuration](docs/manual-setup/03-post-installation.md)
+4. [Development Tools Installation](docs/manual-setup/04-development-tools.md)
+5. [System Customization](docs/manual-setup/05-system-customization.md)
 
-2. [Configure post-install settings](Manual-Post-Ubuntu-Install-Customization-and-Basics/Manual-Post-Ubuntu-Customization-and-Basics.md)
+## Screenshots
 
-3. [Install EDA Tools](/Users/zimengx/code/basics-openlane2-ubuntuvm/Manual-Post-Ubuntu-Install-Dev-Tools/Manual-Post-Ubuntu-Dev-Tools.md)
-
-## Images
-
-![](screenshot.png)
-![](passwd.png)
+![OpenLane VM Desktop](images/screenshots/openlane-vm-desktop.png)
+![Login Screen](images/screenshots/login-screen-main.png)
