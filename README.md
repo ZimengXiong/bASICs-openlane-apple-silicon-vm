@@ -15,7 +15,7 @@ Click [here](docs/prebuilt-setup/01-setup.md).
 
 ### Manual Setup
 
-Build your own VM from scratch with complete control:
+Build your own
 
 1. [VM Creation and Initial Setup](docs/manual-setup/01-vm-creation.md)
 2. [Ubuntu Installation Process](docs/manual-setup/02-ubuntu-installation.md)
