@@ -2,7 +2,7 @@
 
 ## Prequisite Software
 
-1. Download the prebuilt UTM image from releases or with this [Direct Link](https://github.com/USER/PROJECT/releases/latest/download/utm-openlane2-macos-arm64.zip)
+1. Download the prebuilt UTM image from the Google Drive link in [releases](https://github.com/ZimengXiong/basics-openlane2-ubuntuvm/releases)
 
 2. Get UTM, a Virtual Machine host from [here](https://github.com/utmapp/UTM/releases/latest/download/UTM.dmg) or with `brew install --cask utm`, using [brew](https://brew.sh/)
 
